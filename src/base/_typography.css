@@ -1,3 +1,16 @@
 body {
   color: var(--text-light);
 }
+
+.nav_name {
+  font-family: "Brush Script MT", cursive;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.nav_link {
+  font-family: "Georgia", serif;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: var(--text-light);
+}

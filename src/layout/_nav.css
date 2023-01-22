@@ -4,4 +4,10 @@
   height: 5rem;
   width: 100vw;
   display: flex;
+  justify-content: space-between;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
 }

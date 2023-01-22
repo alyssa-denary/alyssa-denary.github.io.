@@ -1,0 +1,29 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss src/styles.css --dir public --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyssa-denary/personal-website.git"
+  },
+  "author": "Alyssa Denary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alyssa-denary/personal-website/issues"
+  },
+  "homepage": "https://github.com/alyssa-denary/personal-website#readme",
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-custom-media": "^9.0.1",
+    "postcss-import": "^15.1.0",
+    "postcss-media-minmax": "^5.0.0",
+    "postcss-preset-env": "^7.8.3",
+    "postcss-nested": "^6.0.0"
+  }
+}

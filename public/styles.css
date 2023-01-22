@@ -1,3 +1,7 @@
+:root {
+  --background-grey: rgba(16, 29, 44, 0.9);
+  --text-light: rgb(240, 240, 240);
+}
 *,
 *::before,
 *::after {
@@ -5,11 +9,9 @@
   margin: 0;
   padding: 0;
 }
-
 html {
   font-size: 62.5% /* 1 rem = 10px */;
 }
-
 body {
   box-sizing: border-box;
   height: 100vh;
@@ -18,6 +20,23 @@ body {
       rgba(16, 29, 44, 0.9)
     ),
     url(../img/hero.jpg);
+  background-image: linear-gradient(
+      var(--background-grey),
+      var(--background-grey)
+    ),
+    url(../img/hero.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+body {
+  color: rgb(240, 240, 240);
+  color: var(--text-light);
+}
+.nav {
+  position: absolute;
+  top: 0;
+  height: 5rem;
+  width: 100vw;
+  display: flex;
 }

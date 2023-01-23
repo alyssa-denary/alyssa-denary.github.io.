@@ -7,7 +7,19 @@
   justify-content: space-between;
 }
 
+.nav_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 10rem;
+}
+
 .nav_list {
   list-style: none;
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem;
+  margin-right: 1.5rem;
+  padding-top: 0.5rem;
 }

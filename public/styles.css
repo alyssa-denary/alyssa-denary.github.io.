@@ -39,11 +39,13 @@ body {
   font-weight: 100;
 }
 .nav_link {
-  font-family: "Georgia", serif;
-  font-size: 2rem;
-  text-decoration: none;
   color: rgb(240, 240, 240);
   color: var(--text-light);
+  font-family: "Georgia", serif;
+  font-size: 1.75rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .nav {
   position: absolute;
@@ -53,7 +55,18 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.nav_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 10rem;
+}
 .nav_list {
   list-style: none;
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem;
+  margin-right: 1.5rem;
+  padding-top: 0.5rem;
 }

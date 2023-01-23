@@ -9,10 +9,15 @@ body {
 }
 
 .nav_link {
-  color: var(--text-light);
+  color: var(--text-grey);
   font-family: "Georgia", serif;
   font-size: 1.75rem;
   letter-spacing: 0.1rem;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.active,
+.nav_link:hover {
+  color: var(--text-light);
 }

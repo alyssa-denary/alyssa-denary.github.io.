@@ -19,7 +19,15 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
   margin-right: 1.5rem;
   padding-top: 0.5rem;
+}
+
+.nav_link {
+  padding: 1rem;
+}
+
+.active {
+  background-color: var(--background-light-grey);
 }

@@ -1,6 +1,9 @@
 :root {
   --background-grey: rgba(16, 29, 44, 0.9);
   --text-light: rgb(240, 240, 240);
+  --text-grey: rgb(196, 192, 192);
+  --background-light-grey: rgba(74, 83, 93, 0.9);
+
 }
 *,
 *::before,
@@ -39,13 +42,18 @@ body {
   font-weight: 100;
 }
 .nav_link {
-  color: rgb(240, 240, 240);
-  color: var(--text-light);
+  color: rgb(196, 192, 192);
+  color: var(--text-grey);
   font-family: "Georgia", serif;
   font-size: 1.75rem;
   letter-spacing: 0.1rem;
   text-decoration: none;
   text-transform: uppercase;
+}
+.active,
+.nav_link:hover {
+  color: rgb(240, 240, 240);
+  color: var(--text-light);
 }
 .nav {
   position: absolute;
@@ -66,7 +74,14 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
   margin-right: 1.5rem;
   padding-top: 0.5rem;
+}
+.nav_link {
+  padding: 1rem;
+}
+.active {
+  background-color: rgba(74, 83, 93, 0.9);
+  background-color: var(--background-light-grey);
 }

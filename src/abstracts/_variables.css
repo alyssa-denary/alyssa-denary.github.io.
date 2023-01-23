@@ -1,4 +1,7 @@
 :root {
   --background-grey: rgba(16, 29, 44, 0.9);
   --text-light: rgb(240, 240, 240);
+  --text-grey: rgb(196, 192, 192);
+  --background-light-grey: rgba(74, 83, 93, 0.9);
+
 }

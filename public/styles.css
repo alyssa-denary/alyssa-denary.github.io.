@@ -39,7 +39,7 @@ body {
   overflow-y: scroll;
   height: 100vh;
   width: 100vw;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 body {
   color: rgb(240, 240, 240);
@@ -96,11 +96,24 @@ body {
 .nav {
   position: fixed;
   top: 0;
+  z-index: 1;
   height: 5rem;
   width: 100vw;
-  z-index: 1;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5rem;
+  background-image: linear-gradient(
+      rgba(16, 29, 44, 0.9),
+      rgba(16, 29, 44, 0.9)
+    ),
+    url(../img/hero.jpg);
+  background-image: linear-gradient(
+      var(--background-grey),
+      var(--background-grey)
+    ),
+    url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
 }
 .nav_name {
   display: flex;

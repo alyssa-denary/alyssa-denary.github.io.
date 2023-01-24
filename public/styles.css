@@ -142,3 +142,10 @@ body {
   background-color: rgba(74, 83, 93, 0.9);
   background-color: var(--background-light-grey);
 }
+.projects {
+  height: 95vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

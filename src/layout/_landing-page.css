@@ -12,3 +12,29 @@
   margin: 5rem 8rem;
 }
 
+.landing-page_text-container {
+  margin: 5rem 3rem 26rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-text {
+  font-size: 6rem;
+}
+
+.role-text {
+  font-size: 4rem;
+}
+
+.dividing-line { /* Troubleshoot */
+  width: 80%;
+  color: var(--white);
+  height: 20px;
+  z-index: 1;
+}
+
+.description-text {
+  font-size: 2rem;
+}

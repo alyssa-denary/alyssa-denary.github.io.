@@ -1,5 +1,5 @@
 body {
-  color: var(--text-light);
+  color: var(--white);
 }
 
 .nav_name {
@@ -19,5 +19,5 @@ body {
 
 .active,
 .nav_link:hover {
-  color: var(--text-light);
+  color: var(--white);
 }

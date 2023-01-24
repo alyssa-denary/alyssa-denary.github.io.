@@ -21,3 +21,22 @@ body {
 .nav_link:hover {
   color: var(--white);
 }
+
+.name-text {
+  font-size: 6rem;
+}
+
+.role-text {
+  font-size: 4rem;
+}
+
+.description-text {
+  font-size: 2rem;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+}

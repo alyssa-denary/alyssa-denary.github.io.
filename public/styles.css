@@ -63,8 +63,23 @@ body {
   color: rgb(240, 240, 240);
   color: var(--white);
 }
+.name-text {
+  font-size: 6rem;
+}
+.role-text {
+  font-size: 4rem;
+}
+.description-text {
+  font-size: 2rem;
+}
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+}
 .landing-page {
-  height: 100vh;
+  height: 95vh;
   display: flex;
 }
 .waterfall {
@@ -74,7 +89,7 @@ body {
   border-radius: .5rem;
   box-shadow: 0px 0px 0.5rem 0.25rem rgb(240, 240, 240);
   box-shadow: 0px 0px 0.5rem 0.25rem var(--white);
-  margin: 5rem 8rem;
+  margin: 5rem 8rem 0rem 8rem;
 }
 .landing-page_text-container {
   padding: 15rem 3rem 0rem 3rem;
@@ -82,15 +97,6 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-.name-text {
-  font-size: 6rem;
-}
-.role-text {
-  font-size: 4rem;
-}
-.description-text {
-  font-size: 2rem;
 }
 .nav {
   position: fixed;

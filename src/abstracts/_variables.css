@@ -4,5 +4,5 @@
   --text-grey: rgb(196, 192, 192);
   --background-light-grey: rgba(74, 83, 93, 0.9);
   --border-width: 2rem;
-  --transparent-white: rgba(240, 240, 240, .8);
+  --transparent-white: rgba(240, 240, 240, 0.8);
 }

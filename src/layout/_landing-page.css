@@ -1,5 +1,4 @@
 .landing-page {
-  padding-top: 5rem;
   height: 100vh;
   display: flex;
 }
@@ -13,10 +12,10 @@
 }
 
 .landing-page_text-container {
-  margin: 5rem 3rem 26rem 3rem;
+  padding: 15rem 3rem 0rem 3rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -26,13 +25,6 @@
 
 .role-text {
   font-size: 4rem;
-}
-
-.dividing-line { /* Troubleshoot */
-  width: 80%;
-  color: var(--white);
-  height: 20px;
-  z-index: 1;
 }
 
 .description-text {

@@ -6,3 +6,39 @@
   flex-wrap: wrap;
 }
 
+.project-showcase {
+  width: 35rem;
+  height: 36rem;
+  border: 0.5rem solid var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0px 0px 0.5rem 0.2rem var(--white);
+}
+
+.project-showcase_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.project-name {
+  overflow-wrap: break-word;
+}
+
+.projects_svg {
+  width: 4rem;
+  height: 4rem;
+  fill: var(--grey);
+  padding-top: .25rem;
+}
+
+.project-img {
+  width: 33rem;
+  padding: 2rem 1rem;
+  border: 0.25rem solid var(--grey);
+}

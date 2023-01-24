@@ -40,3 +40,8 @@ body {
   text-transform: uppercase;
   letter-spacing: .4rem;
 }
+
+.project-showcase_header {
+  color: var(--grey);
+  font-size: 2.25rem;
+}

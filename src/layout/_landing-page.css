@@ -1,5 +1,6 @@
 .landing-page {
-  height: 100vh;
+  height: 90vh;
+  margin-top: 5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;

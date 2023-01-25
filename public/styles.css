@@ -24,12 +24,12 @@ body {
       rgba(16, 29, 44, 0.9),
       rgba(16, 29, 44, 0.9)
     ),
-    url(../img/hero.jpg);
+    url(../img/hillside-river.png);
   background-image: linear-gradient(
       var(--background-grey),
       var(--background-grey)
     ),
-    url(../img/hero.jpg);
+    url(../img/hillside-river.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -162,12 +162,12 @@ body {
       rgba(16, 29, 44, 0.9),
       rgba(16, 29, 44, 0.9)
     ),
-    url(../img/hero.jpg);
+    url(../img/hillside-river.png);
   background-image: linear-gradient(
       var(--background-grey),
       var(--background-grey)
     ),
-    url(../img/hero.jpg);
+    url(../img/hillside-river.png);
   background-size: cover;
   background-position: top;
 }

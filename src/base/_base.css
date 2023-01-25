@@ -17,7 +17,7 @@ body {
       var(--background-grey),
       var(--background-grey)
     ),
-    url(../img/hero.jpg);
+    url(../img/hillside-river.png);
   background-size: cover;
   background-position: center;
   position: relative;

@@ -184,6 +184,32 @@ body {
   min-height: 50vh;
   width: 90vw;
 }
+.contact-box {
+  border: 1rem solid red; /* temp */
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 70vw;
+  height: 55vh;
+  background-image: linear-gradient(
+    rgba(16, 29, 44, 0.9),
+    rgba(16, 29, 44, 0.9)
+  );
+  background-image: linear-gradient(
+    var(--background-grey),
+    var(--background-grey)
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-pic {
+  width: 25rem;
+  height: 25rem;
+  border: .25rem solid rgb(16, 29, 44);
+  border: .25rem solid var(--grey);
+  border-radius: 50%;
+}
 .landing-page {
   height: 90vh;
   margin-top: 5rem;

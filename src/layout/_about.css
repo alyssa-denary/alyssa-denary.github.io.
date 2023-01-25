@@ -1,11 +1,11 @@
-.about {
+.about-top-section {
   margin: 5rem 0rem;
   display: flex;
   justify-content: space-around;
   /* display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 2fr 1fr; */
-  /* flex-wrap: wrap-reverse; */  /* At media query breakpoint */
+  /* flex-wrap: wrap-reverse; */ /* At media query breakpoint */
 }
 
 .about-text-container {
@@ -17,7 +17,7 @@
 
 .snowshoe-pic {
   height: 46rem;
-  border: .25rem solid var(--grey);
+  border: 0.25rem solid var(--grey);
   border-radius: 50%;
   margin: -3rem 5rem 0 5rem;
 }

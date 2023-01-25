@@ -1,10 +1,12 @@
 .about {
   margin: 5rem 0;
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
 }
 
 .snowshoe-pic {
-  height: 40rem;
+  height: 45rem;
   border: .25rem solid var(--grey);
   border-radius: 50%;
 }

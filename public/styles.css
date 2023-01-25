@@ -172,6 +172,18 @@ body {
   box-shadow: 5px 5px 0.5rem 0.25rem rgb(16, 29, 44);
   box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
 }
+.contact {
+  position: relative;
+}
+.map-box {
+  background-image: url(../img/new-haven.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+  margin: 0 auto;
+  min-height: 50vh;
+  width: 90vw;
+}
 .landing-page {
   height: 90vh;
   margin-top: 5rem;

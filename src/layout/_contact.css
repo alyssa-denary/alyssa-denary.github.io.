@@ -1,5 +1,6 @@
 .contact {
   position: relative;
+  height: 100vh;
 }
 
 .map-box {
@@ -10,27 +11,54 @@
   margin: 0 auto;
   min-height: 50vh;
   width: 90vw;
+  border: 0.25rem solid var(--grey);
 }
 
 .contact-box {
-  border: 1rem solid red; /* temp */
+  border: 0.1rem solid var(--grey);
   position: absolute;
   top: 20%;
   left: 15%;
   width: 70vw;
   height: 55vh;
-  background-image: linear-gradient(
-    var(--background-grey),
-    var(--background-grey)
-  );
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-image: linear-gradient(var(--grey), var(--tan), var(--grey));
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  align-content: center;
+  padding: 0 2rem;
 }
 
 .profile-pic {
   width: 25rem;
   height: 25rem;
-  border: .25rem solid var(--grey);
+  border: 0.25rem solid var(--grey);
   border-radius: 50%;
+}
+
+.contact_svg {
+  fill: var(--grey);
+}
+
+.github {
+  width: 4rem;
+  height: 4rem;
+}
+
+.linkedin {
+  width: 3rem;
+  height: 3rem;
+}
+
+.quote-box {
+  position: relative;
+}
+
+.quote-box:before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/quote-left.svg);
+  background-repeat: no-repeat;
+  background-size: 6em 6em;
+  width: 6rem;
+  height: 6rem;
 }

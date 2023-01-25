@@ -98,6 +98,16 @@ body {
 .project-link {
   text-decoration: none;
 }
+.about {
+  margin: 5rem 0;
+  display: flex;
+}
+.snowshoe-pic {
+  height: 40rem;
+  border: .25rem solid rgb(16, 29, 44);
+  border: .25rem solid var(--grey);
+  border-radius: 50%;
+}
 .landing-page {
   height: 100vh;
   display: flex;

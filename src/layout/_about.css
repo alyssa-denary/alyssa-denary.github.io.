@@ -1,0 +1,10 @@
+.about {
+  margin: 5rem 0;
+  display: flex;
+}
+
+.snowshoe-pic {
+  height: 40rem;
+  border: .25rem solid var(--grey);
+  border-radius: 50%;
+}

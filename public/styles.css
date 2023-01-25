@@ -104,8 +104,8 @@ body {
 .project-showcase {
   border: 0.2rem solid rgb(240, 240, 240);
   border: 0.2rem solid var(--white);
-  box-shadow: 0px 0px 0.2rem 0.2rem rgb(240, 240, 240);
-  box-shadow: 0px 0px 0.2rem 0.2rem var(--white);
+  box-shadow: 0px 0px 0.2rem 0.2rem rgb(240, 240, 240), 5px 5px 0.5rem 0.25rem rgb(16, 29, 44);
+  box-shadow: 0px 0px 0.2rem 0.2rem var(--white), 5px 5px 0.5rem 0.25rem var(--grey);
   border-radius: 0.25rem;
   background-color: rgb(240, 240, 240);
   background-color: var(--white);
@@ -149,6 +149,10 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+.about-text-container > * {
+  text-shadow: 5px 5px rgb(16, 29, 44);
+  text-shadow: 5px 5px var(--grey);
+}
 .resume-link {
   margin-top: 2rem;
 }
@@ -156,6 +160,8 @@ body {
   height: 30rem;
   border: 0.75rem solid rgba(74, 83, 93, 0.9);
   border: 0.75rem solid var(--background-light-grey);
+  box-shadow: 5px 5px 0.5rem 0.25rem rgb(16, 29, 44);
+  box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
 }
 .snowshoe-pic {
   height: 47rem;
@@ -163,6 +169,8 @@ body {
   border: 0.3rem solid var(--grey);
   border-radius: 50%;
   margin: -5rem 5rem 0 5rem;
+  box-shadow: 5px 5px 0.5rem 0.25rem rgb(16, 29, 44);
+  box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
 }
 .landing-page {
   height: 90vh;

@@ -137,11 +137,12 @@ body {
 }
 .waterfall {
   height: 40rem;
-  border: .5rem solid rgb(240, 240, 240);
-  border: .5rem solid var(--white);
-  border-radius: .5rem;
-  box-shadow: 0px 0px 0.5rem 0.25rem rgb(240, 240, 240);
-  box-shadow: 0px 0px 0.5rem 0.25rem var(--white);
+  border: 0.3rem solid rgb(16, 29, 44);
+  border: 0.3rem solid var(--grey);
+  box-shadow: 5px 5px 0.5rem 0.25rem rgb(16, 29, 44);
+  box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
+
+  border-radius: 0.5rem;
   margin: 1rem;
 }
 .landing-page_text-container {
@@ -149,6 +150,10 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+.landing-page_text-container > * {
+  text-shadow: 5px 5px rgb(16, 29, 44);
+  text-shadow: 5px 5px var(--grey);
 }
 .nav {
   position: fixed;

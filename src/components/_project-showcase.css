@@ -1,0 +1,35 @@
+.project-showcase {
+  border: 0.2rem solid var(--white);
+  box-shadow: 0px 0px 0.2rem 0.2rem var(--white);
+  border-radius: 0.25rem;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-showcase_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.project-name {
+  overflow-wrap: break-word;
+}
+
+.projects_svg {
+  width: 4rem;
+  height: 4rem;
+  fill: var(--grey);
+  padding-top: 0.25rem;
+}
+
+.project-img {
+  width: 33rem;
+  padding: 2rem 0.5rem;
+  border: 0.25rem solid var(--grey);
+}

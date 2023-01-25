@@ -161,16 +161,12 @@ body {
 .projects {
   height: 95vh;
   display: grid;
-  grid-template-rows: repeat(auto-fit, 36rem);
-  grid-template-columns: repeat(auto-fill, 35rem);
+  grid-template-rows: repeat(auto-fit, 36rem); /* Project height = 36rem */
+  grid-template-columns: repeat(auto-fill, 35rem); /* Project width = 35rem */
   grid-gap: 2rem;
   justify-content: space-around;
-  /* align-content: center; */
-  /* flex-wrap: wrap; */
 }
 .project-showcase {
-  width: 35rem;
-  height: 36rem;
   border: 0.2rem solid rgb(240, 240, 240);
   border: 0.2rem solid var(--white);
   box-shadow: 0px 0px 0.5rem 0.2rem rgb(240, 240, 240);

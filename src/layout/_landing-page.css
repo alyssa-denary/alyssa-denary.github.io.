@@ -24,3 +24,7 @@
 .landing-page_text-container > * {
   text-shadow: 5px 5px var(--grey);
 }
+
+.description-text {
+  margin-top: 1rem;
+}

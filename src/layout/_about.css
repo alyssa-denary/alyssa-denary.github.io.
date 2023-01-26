@@ -1,5 +1,5 @@
 .about {
-  margin: 5rem 0rem;
+  min-height: 70vh;
   display: flex;
   justify-content: space-around;
   /* flex-wrap: wrap-reverse;  At media query breakpoint  */
@@ -7,6 +7,7 @@
 
 .about-text-container {
   margin-left: 5rem;
+  padding-right: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -27,7 +28,8 @@
 }
 
 .snowshoe-pic {
-  height: 47rem;
+  min-height: 47rem;
+  max-height: 75vh;
   border: 0.3rem solid var(--grey);
   border-radius: 50%;
   margin: -5rem 5rem 0 5rem;

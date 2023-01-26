@@ -1,0 +1,4 @@
+@custom-media --reduced-window (width <= 125rem);
+@custom-media --small-window (width <= 100rem);
+@custom-media --tab-land (width <= 80rem);
+@custom-media --tab-port (width <= 60rem);

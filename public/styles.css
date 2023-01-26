@@ -187,6 +187,11 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+@media (max-width: 62.5em) {
+.about-text-container {
+    padding-right: 2rem;
+}
+  }
 .about-text-container > * {
   text-shadow: 5px 5px rgb(16, 29, 44);
   text-shadow: 5px 5px var(--grey);
@@ -201,6 +206,11 @@ body {
   box-shadow: 5px 5px 0.5rem 0.25rem rgb(16, 29, 44);
   box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
 }
+@media (max-width: 62.5em) {
+.resume-pic {
+    height: 25rem;
+}
+  }
 .snowshoe-pic {
   min-height: 47rem;
   max-height: 75vh;
@@ -211,6 +221,12 @@ body {
   box-shadow: 5px 5px 0.5rem 0.25rem rgb(16, 29, 44);
   box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
 }
+@media (max-width: 62.5em) {
+.snowshoe-pic {
+    margin: -4rem 5rem 0 1rem;
+    max-height: 70vh;
+}
+  }
 .contact {
   position: relative;
   min-height: 90vh;

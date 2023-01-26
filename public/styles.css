@@ -119,6 +119,11 @@ body {
   color: rgb(16, 29, 44);
   color: var(--grey);
 }
+.footer {
+  font-size: 1.5rem;
+  color: rgb(240, 240, 240);
+  color: var(--white);
+}
 .project-showcase {
   border: 0.2rem solid rgb(240, 240, 240);
   border: 0.2rem solid var(--white);
@@ -262,6 +267,12 @@ body {
 }
 .author {
   margin-top: 1rem;
+}
+.footer {
+  height: 5rem;
+  width: 100vw;
+  margin-left: 3rem;
+  vertical-align: middle;
 }
 .landing-page {
   height: 90vh;

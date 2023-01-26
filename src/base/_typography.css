@@ -46,10 +46,26 @@ body {
   font-size: 2.25rem;
 }
 
-.project-link {
+.link {
   text-decoration: none;
 }
 
 .about-text-container {
   font-size: 2.25rem;
+}
+
+.contact-text,
+.email-text {
+  font-size: 3rem;
+  color: var(--grey);
+}
+
+.email-text {
+  text-decoration: underline solid var(--grey);
+  text-underline-offset: 0.4rem;
+}
+
+.quote-box {
+  font-size: 2rem;
+  color: var(--grey);
 }

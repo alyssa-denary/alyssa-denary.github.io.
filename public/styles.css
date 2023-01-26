@@ -252,29 +252,37 @@ body {
   height: 55vh;
   background-image: linear-gradient(rgb(16, 29, 44), rgba(210, 180, 140, 1), rgb(16, 29, 44));
   background-image: linear-gradient(var(--grey), var(--tan), var(--grey));
-  display: grid;
-  grid-template-columns: 2fr 3fr 2fr;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
   padding: 0 2rem;
 }
+@media (max-width: 62.5em) {
+.contact-box {
+    height: 70vh;
+    flex-wrap: wrap;
+}
+  }
 .profile-pic {
-  width: 25rem;
-  height: 25rem;
+  width: 20rem;
+  height: 20rem;
   border: 0.25rem solid rgb(16, 29, 44);
   border: 0.25rem solid var(--grey);
   border-radius: 50%;
 }
-@media (max-width: 78em) {
+@media (max-width: 62.5em) {
 .profile-pic {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
+    margin-top: 2rem;
 }
   }
 .contact-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 .icon-box {
   margin-top: 1.25rem;
@@ -302,11 +310,16 @@ body {
   justify-content: center;
   align-items: flex-end;
 }
+@media (max-width: 62.5em) {
+.quote-box {
+    grid-row: 2 / 3;
+}
+  }
 .quote-box:before {
   content: "";
   position: absolute;
-  top: 0;
-  left: -3rem;
+  top: -7rem;
+  left: -2rem;
   background-image: url(../img/quote-left.svg);
   background-repeat: no-repeat;
   background-size: 6rem 6rem;

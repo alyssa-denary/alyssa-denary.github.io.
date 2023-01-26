@@ -22,20 +22,26 @@
   width: 70vw;
   height: 55vh;
   background-image: linear-gradient(var(--grey), var(--tan), var(--grey));
-  display: grid;
-  grid-template-columns: 2fr 3fr 2fr;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
   padding: 0 2rem;
+  @media (--small-window) {
+    height: 70vh;
+    flex-wrap: wrap;
+  }
 }
 
 .profile-pic {
-  width: 25rem;
-  height: 25rem;
+  width: 20rem;
+  height: 20rem;
   border: 0.25rem solid var(--grey);
   border-radius: 50%;
-  @media (--reduced-window) {
-    width: 20rem;
-    height: 20rem;
+  @media (--small-window) {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 2rem;
   }
 }
 
@@ -43,7 +49,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 
 .icon-box {
@@ -70,13 +76,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  @media (--small-window) {
+    grid-row: 2 / 3;
+  }
 }
 
 .quote-box:before {
   content: "";
   position: absolute;
-  top: 0;
-  left: -3rem;
+  top: -7rem;
+  left: -2rem;
   background-image: url(../img/quote-left.svg);
   background-repeat: no-repeat;
   background-size: 6rem 6rem;

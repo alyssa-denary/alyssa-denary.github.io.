@@ -332,7 +332,7 @@ body {
 .footer {
   height: 5rem;
   width: 100vw;
-  margin-left: 3rem;
+  margin: 10rem 0 0 3rem;
   vertical-align: middle;
 }
 .landing-page {

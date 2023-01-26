@@ -5,6 +5,7 @@ module.exports = {
     require("postcss-nested"),
     require("postcss-custom-media"),
     require("postcss-media-minmax"),
+    require("autoprefixer"),
     // require("cssnano"), // Minimizes CSS code to fewer lines/ removes line breaks
   ],
 };

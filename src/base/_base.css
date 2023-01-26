@@ -41,7 +41,10 @@ body {
   border: none;
 }
 
+#home-id {
+  margin-bottom: 0;
+}
+
 .section-heading {
   margin: 0rem 5rem 5rem 5rem;
 }
-

@@ -50,6 +50,9 @@ body {
   margin-bottom: 8rem;
   border: none;
 }
+#home-id {
+  margin-bottom: 0;
+}
 .section-heading {
   margin: 0rem 5rem 5rem 5rem;
 }
@@ -299,6 +302,9 @@ body {
 .landing-page_text-container > * {
   text-shadow: 5px 5px rgb(16, 29, 44);
   text-shadow: 5px 5px var(--grey);
+}
+.description-text {
+  margin-top: 1rem;
 }
 .nav {
   position: fixed;

@@ -6,7 +6,7 @@
   --background-light-grey: rgba(74, 83, 93, 0.9);
   --border-width: 2rem;
   --transparent-white: rgba(240, 240, 240, 0.8);
-  --tan: rgba(210, 180, 140, 0.95);
+  --tan: rgba(210, 180, 140, 1);
 }
 *,
 *::before,
@@ -96,11 +96,28 @@ body {
   color: var(--grey);
   font-size: 2.25rem;
 }
-.project-link {
+.link {
   text-decoration: none;
 }
 .about-text-container {
   font-size: 2.25rem;
+}
+.contact-text,
+.email-text {
+  font-size: 3rem;
+  color: rgb(16, 29, 44);
+  color: var(--grey);
+}
+.email-text {
+  text-decoration: underline;
+  -webkit-text-decoration: underline solid var(--grey);
+          text-decoration: underline solid var(--grey);
+  text-underline-offset: 0.4rem;
+}
+.quote-box {
+  font-size: 2rem;
+  color: rgb(16, 29, 44);
+  color: var(--grey);
 }
 .project-showcase {
   border: 0.2rem solid rgb(240, 240, 240);
@@ -196,7 +213,7 @@ body {
   left: 15%;
   width: 70vw;
   height: 55vh;
-  background-image: linear-gradient(rgb(16, 29, 44), rgba(210, 180, 140, 0.95), rgb(16, 29, 44));
+  background-image: linear-gradient(rgb(16, 29, 44), rgba(210, 180, 140, 1), rgb(16, 29, 44));
   background-image: linear-gradient(var(--grey), var(--tan), var(--grey));
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
@@ -210,29 +227,39 @@ body {
   border: 0.25rem solid var(--grey);
   border-radius: 50%;
 }
+.contact-text {
+  padding: 6.5rem 5rem 5rem 5rem;
+  text-align: center;
+}
+.icon-box {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
 .contact_svg {
   fill: rgb(16, 29, 44);
   fill: var(--grey);
-}
-.github {
   width: 4rem;
   height: 4rem;
 }
-.linkedin {
-  width: 3rem;
-  height: 3rem;
-}
 .quote-box {
   position: relative;
+  padding: 6.5rem 5rem 5rem 5rem;
 }
 .quote-box:before {
   content: "";
   position: absolute;
+  top: 0;
+  left: -3rem;
   background-image: url(../img/quote-left.svg);
   background-repeat: no-repeat;
-  background-size: 6em 6em;
+  background-size: 6rem 6rem;
   width: 6rem;
   height: 6rem;
+}
+.author {
+  margin-top: 1rem;
 }
 .landing-page {
   height: 90vh;

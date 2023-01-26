@@ -35,30 +35,41 @@
   border-radius: 50%;
 }
 
-.contact_svg {
-  fill: var(--grey);
+.contact-text {
+  padding: 6.5rem 5rem 5rem 5rem;
+  text-align: center;
 }
 
-.github {
+.icon-box {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.contact_svg {
+  fill: var(--grey);
   width: 4rem;
   height: 4rem;
 }
 
-.linkedin {
-  width: 3rem;
-  height: 3rem;
-}
-
 .quote-box {
   position: relative;
+  padding: 6.5rem 5rem 5rem 5rem;
 }
 
 .quote-box:before {
   content: "";
   position: absolute;
+  top: 0;
+  left: -3rem;
   background-image: url(../img/quote-left.svg);
   background-repeat: no-repeat;
-  background-size: 6em 6em;
+  background-size: 6rem 6rem;
   width: 6rem;
   height: 6rem;
+}
+
+.author {
+  margin-top: 1rem;
 }

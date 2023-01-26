@@ -156,13 +156,14 @@ body {
   border: 0.25rem solid var(--grey);
 }
 .about {
-  margin: 5rem 0rem;
+  min-height: 70vh;
   display: flex;
   justify-content: space-around;
   /* flex-wrap: wrap-reverse;  At media query breakpoint  */
 }
 .about-text-container {
   margin-left: 5rem;
+  padding-right: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -182,7 +183,8 @@ body {
   box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
 }
 .snowshoe-pic {
-  height: 47rem;
+  min-height: 47rem;
+  max-height: 75vh;
   border: 0.3rem solid rgb(16, 29, 44);
   border: 0.3rem solid var(--grey);
   border-radius: 50%;
@@ -331,10 +333,11 @@ body {
   background-color: var(--background-light-grey);
 }
 .projects {
-  margin: 5rem 0;
+  min-height: 70vh;
   display: grid;
   grid-template-rows: repeat(auto-fit, 36rem); /* Project height = 36rem */
   grid-template-columns: repeat(auto-fill, 35rem); /* Project width = 35rem */
   grid-gap: 2rem;
   justify-content: space-around;
+  align-content: center;
 }

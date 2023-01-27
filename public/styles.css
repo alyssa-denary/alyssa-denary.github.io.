@@ -272,12 +272,12 @@ body {
 }
 @media (max-width: 62.5em) {
 .map-box {
-    min-height: 70vh;
+    min-height: 35rem;
 }
   }
 @media (max-width: 42.5em) {
 .map-box {
-    min-height: 62rem;
+    min-height: 55rem;
 }
   }
 .contact-box {
@@ -285,8 +285,8 @@ body {
   border: 0.1rem solid var(--grey);
   position: absolute;
   top: 18%;
-  left: 15%;
-  width: 70vw;
+  left: 10%;
+  width: 80vw;
   height: 55vh;
   background-image: linear-gradient(rgb(240, 240, 240), rgb(240, 240, 240), rgb(16, 29, 44));
   background-image: linear-gradient(var(--white), var(--white), var(--grey));
@@ -298,12 +298,14 @@ body {
 }
 @media (max-width: 62.5em) {
 .contact-box {
-    height: 70vh;
-    min-height: 30rem;
+    min-height: 35rem;
     flex-wrap: wrap;
     padding-bottom: 2rem;
     background-image: linear-gradient(rgb(240, 240, 240), rgb(240, 240, 240), rgb(240, 240, 240), rgb(16, 29, 44));
     background-image: linear-gradient(var(--white), var(--white), var(--white), var(--grey));
+    top: 15%;
+    left: 10%;
+    width: 80vw;
 }
   }
 @media (max-width: 50em) {
@@ -313,10 +315,9 @@ body {
   }
 @media (max-width: 42.5em) {
 .contact-box {
-    height: 80vh;
     min-height: 55rem;
     gap: 2.5rem;
-    top: 5%;
+    top: 10%;
     left: 10%;
     width: 80vw;
 }

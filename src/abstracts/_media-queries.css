@@ -1,5 +1,5 @@
-@custom-media --reduced-window (width <= 78em);
-@custom-media --small-window (width <= 62.5em);
-@custom-media --tab-land (width <= 50em);
-@custom-media --tab-port (width <= 42.5em);
-@custom-media --phone (width <= 25em);
+@custom-media --reduced-window (width <= 78em); /* 1250px */
+@custom-media --small-window (width <= 62.5em); /* 1000px */
+@custom-media --tab-land (width <= 50em); /* 800px */
+@custom-media --tab-port (width <= 37.5em); /* 600px */
+@custom-media --phone (width <= 25em); /* 400px */

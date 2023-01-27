@@ -281,7 +281,7 @@ body {
     flex-wrap: wrap;
 }
   }
-@media (max-width: 37.5em) {
+@media (max-width: 42.5em) {
 .contact-box {
     height: 80vh;
     padding: 2rem;
@@ -307,7 +307,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 37.5em) {
+@media (max-width: 42.5em) {
 .contact-text {
     margin-top: -5rem;
 }

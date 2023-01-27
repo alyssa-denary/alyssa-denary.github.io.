@@ -281,6 +281,12 @@ body {
     flex-wrap: wrap;
 }
   }
+@media (max-width: 37.5em) {
+.contact-box {
+    height: 80vh;
+    padding: 2rem;
+}
+  }
 .profile-pic {
   width: 20rem;
   height: 20rem;
@@ -301,6 +307,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 37.5em) {
+.contact-text {
+    margin-top: -5rem;
+}
+  }
 .icon-box {
   margin-top: 1.25rem;
   display: flex;
@@ -332,6 +343,11 @@ body {
     grid-row: 2 / 3;
 }
   }
+@media (max-width: 50em) {
+.quote-box {
+    margin: -3rem 0 3rem 0;
+}
+  }
 .quote-box:before {
   content: "";
   position: absolute;
@@ -343,6 +359,11 @@ body {
   width: 6rem;
   height: 6rem;
 }
+@media (max-width: 50em) {
+.quote-box:before {
+    left: -1rem;
+}
+  }
 .author {
   margin-top: 1rem;
 }

@@ -356,7 +356,19 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-} .waterfall {
+} @media (max-width: 37.5em) { .landing-page {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 7rem;
+    gap: 3rem;
+}
+  } @media (max-width: 25em) { .landing-page {
+    margin-top: 3rem;
+}
+  } @media (max-width: 25em) { .landing-page_img-container {
+    align-self: stretch;
+}
+  } .waterfall {
   height: 40rem;
   border: 0.3rem solid rgb(16, 29, 44);
   border: 0.3rem solid var(--grey);
@@ -364,7 +376,13 @@
   box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
   border-radius: 0.5rem;
   margin: 1rem;
-} .landing-page_text-container {
+} @media (max-width: 25em) { .waterfall {
+    width: 100%;
+    height: auto;
+    margin: 0 0 1rem 0;
+    border: none;
+}
+  } .landing-page_text-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

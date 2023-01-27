@@ -61,6 +61,9 @@ body {
   @media (--reduced-window) {
     font-size: 2.5rem;
   }
+  @media (--phone) {
+    font-size: 2rem;
+  }
 }
 
 .email-text {
@@ -73,6 +76,9 @@ body {
   color: var(--grey);
   @media (--reduced-window) {
     font-size: 1.75rem;
+  }
+  @media (--phone) {
+    font-size: 1.65rem;
   }
 }
 

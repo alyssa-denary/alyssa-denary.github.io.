@@ -117,6 +117,12 @@ body {
     font-size: 2.5rem;
 }
   }
+@media (max-width: 25em) {
+.contact-text,
+.email-text {
+    font-size: 2rem;
+}
+  }
 .email-text {
   text-decoration: underline;
   -webkit-text-decoration: underline solid var(--grey);
@@ -131,6 +137,11 @@ body {
 @media (max-width: 78em) {
 .quote-box {
     font-size: 1.75rem;
+}
+  }
+@media (max-width: 25em) {
+.quote-box {
+    font-size: 1.65rem;
 }
   }
 .footer {
@@ -267,8 +278,8 @@ body {
   left: 15%;
   width: 70vw;
   height: 55vh;
-  background-image: linear-gradient(to right, rgb(240, 240, 240), rgb(16, 29, 44));
-  background-image: linear-gradient(to right, var(--white), var(--grey));
+  background-image: linear-gradient(rgb(240, 240, 240), rgb(240, 240, 240), rgb(16, 29, 44));
+  background-image: linear-gradient(var(--white), var(--white), var(--grey));
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -278,12 +289,22 @@ body {
 @media (max-width: 62.5em) {
 .contact-box {
     height: 70vh;
+    min-height: 30rem;
     flex-wrap: wrap;
+    padding-bottom: 2rem;
+    background-image: linear-gradient(rgb(240, 240, 240), rgb(240, 240, 240), rgb(240, 240, 240), rgb(16, 29, 44));
+    background-image: linear-gradient(var(--white), var(--white), var(--white), var(--grey));
+}
+  }
+@media (max-width: 50em) {
+.contact-box {
+    padding-bottom: 2rem;
 }
   }
 @media (max-width: 42.5em) {
 .contact-box {
     height: 80vh;
+    min-height: 52rem;
     padding: 2rem;
 }
   }
@@ -298,7 +319,7 @@ body {
 .profile-pic {
     width: 15rem;
     height: 15rem;
-    margin-top: 2rem;
+    margin-top: .5rem;
 }
   }
 .contact-text {
@@ -332,26 +353,23 @@ body {
   }
 .quote-box {
   position: relative;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 @media (max-width: 62.5em) {
 .quote-box {
-    grid-row: 2 / 3;
-}
-  }
-@media (max-width: 50em) {
-.quote-box {
-    margin: -3rem 0 3rem 0;
+    flex-grow: 2;
+    align-self: stretch;
+    justify-content: flex-start;
 }
   }
 .quote-box:before {
   content: "";
   position: absolute;
-  top: -7rem;
+  top: -6rem;
   left: -2rem;
   background-image: url(../img/quote-left.svg);
   background-repeat: no-repeat;
@@ -359,9 +377,31 @@ body {
   width: 6rem;
   height: 6rem;
 }
+@media (max-width: 78em) {
+.quote-box:before {
+    background-size: 5rem 5rem;
+}
+  }
+@media (max-width: 62.5em) {
+.quote-box:before {
+    top: -5rem;
+    left: 0;
+}
+  }
 @media (max-width: 50em) {
 .quote-box:before {
     left: -1rem;
+}
+  }
+@media (max-width: 42.5em) {
+.quote-box:before {
+    top: -6rem;
+}
+  }
+@media (max-width: 25em) {
+.quote-box:before {
+    background-size: 4rem 4rem;
+    top: -5rem;
 }
   }
 .author {

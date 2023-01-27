@@ -66,6 +66,8 @@
 .nav_link:hover {
   color: rgb(240, 240, 240);
   color: var(--white);
+} .text-center {
+  text-align: center;
 } .name-text {
   font-size: 6rem;
 } .role-text {
@@ -372,7 +374,6 @@
   text-shadow: 5px 5px var(--grey);
 } .description-text {
   margin-top: 1rem;
-  text-align: center;
 } .nav {
   position: fixed;
   top: 0;

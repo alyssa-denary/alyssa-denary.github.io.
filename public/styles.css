@@ -178,7 +178,11 @@ body {
   min-height: 70vh;
   display: flex;
   justify-content: space-around;
-  /* flex-wrap: wrap-reverse;  At media query breakpoint  */
+}
+@media (max-width: 50em){
+.about {
+  flex-wrap: wrap-reverse;
+}
 }
 .about-text-container {
   margin-left: 5rem;
@@ -195,20 +199,28 @@ body {
 .about-text-container > * {
   text-shadow: 5px 5px rgb(16, 29, 44);
   text-shadow: 5px 5px var(--grey);
+  margin: 1rem 0;
 }
 .resume-link {
   margin-top: 2rem;
 }
+@media (max-width: 50em) {
+.resume-link {
+    align-self: center;
+}
+  }
 .resume-pic {
   height: 30rem;
   border: 0.75rem solid rgba(74, 83, 93, 0.9);
   border: 0.75rem solid var(--background-light-grey);
   box-shadow: 5px 5px 0.5rem 0.25rem rgb(16, 29, 44);
   box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
+
 }
 @media (max-width: 62.5em) {
 .resume-pic {
     height: 25rem;
+
 }
   }
 .snowshoe-pic {
@@ -225,6 +237,11 @@ body {
 .snowshoe-pic {
     margin: -4rem 5rem 0 1rem;
     max-height: 70vh;
+}
+  }
+@media (max-width: 50em) {
+.snowshoe-pic {
+    margin: -2.5rem 2rem 2rem 2rem;
 }
   }
 .contact {

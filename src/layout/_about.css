@@ -2,7 +2,9 @@
   min-height: 70vh;
   display: flex;
   justify-content: space-around;
-  /* flex-wrap: wrap-reverse;  At media query breakpoint  */
+  @media (--tab-land){
+  flex-wrap: wrap-reverse;
+}
 }
 
 .about-text-container {
@@ -18,10 +20,14 @@
 
 .about-text-container > * {
   text-shadow: 5px 5px var(--grey);
+  margin: 1rem 0;
 }
 
 .resume-link {
   margin-top: 2rem;
+  @media (--tab-land) {
+    align-self: center;
+  }
 }
 
 .resume-pic {
@@ -31,6 +37,7 @@
   @media (--small-window) {
     height: 25rem;
   }
+
 }
 
 .snowshoe-pic {
@@ -43,5 +50,8 @@
   @media (--small-window) {
     margin: -4rem 5rem 0 1rem;
     max-height: 70vh;
+  }
+  @media (--tab-land) {
+    margin: -2.5rem 2rem 2rem 2rem;
   }
 }

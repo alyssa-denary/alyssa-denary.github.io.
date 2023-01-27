@@ -267,8 +267,8 @@ body {
   left: 15%;
   width: 70vw;
   height: 55vh;
-  background-image: linear-gradient(rgb(16, 29, 44), rgba(210, 180, 140, 1), rgb(16, 29, 44));
-  background-image: linear-gradient(var(--grey), var(--tan), var(--grey));
+  background-image: linear-gradient(to right, rgb(240, 240, 240), rgb(16, 29, 44));
+  background-image: linear-gradient(to right, var(--white), var(--grey));
   display: flex;
   align-items: center;
   justify-content: space-around;

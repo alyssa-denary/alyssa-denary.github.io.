@@ -21,7 +21,7 @@
   left: 15%;
   width: 70vw;
   height: 55vh;
-  background-image: linear-gradient(var(--grey), var(--tan), var(--grey));
+  background-image: linear-gradient(to right, var(--white), var(--grey));
   display: flex;
   align-items: center;
   justify-content: space-around;

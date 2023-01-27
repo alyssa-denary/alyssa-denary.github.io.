@@ -2,3 +2,4 @@
 @custom-media --small-window (width <= 62.5em);
 @custom-media --tab-land (width <= 50em);
 @custom-media --tab-port (width <= 42.5em);
+@custom-media --phone (width <= 25em);

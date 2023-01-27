@@ -383,7 +383,10 @@
   box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
   border-radius: 0.5rem;
   margin: 1rem;
-} @media (max-width: 25em) { .waterfall {
+} @media (max-height: 25em) { .waterfall {
+    margin-bottom: 10rem;
+}
+  } @media (max-width: 25em) { .waterfall {
     width: 100%;
     height: auto;
     margin: 0 0 1rem 0;

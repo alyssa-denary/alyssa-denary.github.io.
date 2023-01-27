@@ -3,3 +3,4 @@
 @custom-media --tab-land (width <= 50em); /* 800px */
 @custom-media --tab-port (width <= 37.5em); /* 600px */
 @custom-media --phone (width <= 25em); /* 400px */
+@custom-media --phone-land (height <= 25em);

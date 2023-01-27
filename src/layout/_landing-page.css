@@ -28,6 +28,9 @@
   box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
   border-radius: 0.5rem;
   margin: 1rem;
+  @media (--phone-land) {
+    margin-bottom: 10rem;
+  }
   @media (--phone) {
     width: 100%;
     height: auto;

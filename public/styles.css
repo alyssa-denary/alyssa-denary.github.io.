@@ -164,11 +164,18 @@
 } @media (max-width: 62.5em) { .about-text-resume-container {
     padding-right: 2rem;
 }
+  } @media (max-width: 37.5em) { .about-text-resume-container {
+    padding: 0 1.5rem;
+    margin-left: 0;
+}
   } .about-text-resume-container > * {
   text-shadow: 5px 5px rgb(16, 29, 44);
   text-shadow: 5px 5px var(--grey);
   margin: 1rem 0;
-} .resume-link {
+} @media (max-width: 25em) { .about-text-resume-container p {
+    text-align: center;
+}
+  } .resume-link {
   margin-top: 2rem;
 } @media (max-width: 50em) { .resume-link {
     align-self: center;
@@ -181,6 +188,9 @@
   box-shadow: 5px 5px 0.5rem 0.25rem var(--grey);
 } @media (max-width: 62.5em) { .resume-pic {
     height: 25rem;
+}
+  } @media (max-width: 25em) { .resume-pic {
+    height: 20rem;
 }
   } .snowshoe-pic {
   min-height: 47rem;
@@ -197,6 +207,13 @@
 }
   } @media (max-width: 50em) { .snowshoe-pic {
     margin: -2.5rem 2rem 2rem 2rem;
+}
+  } @media (max-width: 37.5em) { .snowshoe-pic {
+    max-height: 60vh;
+}
+  } @media (max-width: 25em) { .snowshoe-pic {
+    min-height: 30rem;
+    max-height: 43rem;
 }
   } .contact {
   position: relative;

@@ -16,11 +16,21 @@
   @media (--small-window) {
     padding-right: 2rem;
   }
+  @media (--tab-port) {
+    padding: 0 1.5rem;
+    margin-left: 0;
+  }
 }
 
 .about-text-resume-container > * {
   text-shadow: 5px 5px var(--grey);
   margin: 1rem 0;
+}
+
+.about-text-resume-container p {
+  @media (--phone) {
+    text-align: center;
+  }
 }
 
 .resume-link {
@@ -37,6 +47,9 @@
   @media (--small-window) {
     height: 25rem;
   }
+  @media (--phone) {
+    height: 20rem;
+  }
 }
 
 .snowshoe-pic {
@@ -52,5 +65,12 @@
   }
   @media (--tab-land) {
     margin: -2.5rem 2rem 2rem 2rem;
+  }
+  @media (--tab-port) {
+    max-height: 60vh;
+  }
+  @media (--phone) {
+    min-height: 30rem;
+    max-height: 43rem;
   }
 }

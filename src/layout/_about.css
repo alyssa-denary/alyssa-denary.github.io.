@@ -2,12 +2,12 @@
   min-height: 70vh;
   display: flex;
   justify-content: space-around;
-  @media (--tab-land){
-  flex-wrap: wrap-reverse;
-}
+  @media (--tab-land) {
+    flex-wrap: wrap-reverse;
+  }
 }
 
-.about-text-container {
+.about-text-resume-container {
   margin-left: 5rem;
   padding-right: 4rem;
   display: flex;
@@ -18,7 +18,7 @@
   }
 }
 
-.about-text-container > * {
+.about-text-resume-container > * {
   text-shadow: 5px 5px var(--grey);
   margin: 1rem 0;
 }
@@ -37,7 +37,6 @@
   @media (--small-window) {
     height: 25rem;
   }
-
 }
 
 .snowshoe-pic {

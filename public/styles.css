@@ -369,7 +369,8 @@
     gap: 3rem;
 }
   } @media (max-width: 25em) { .landing-page {
-    margin-top: 3rem;
+    margin-top: 6rem;
+    height: 83vh;
 }
   } @media (max-width: 25em) { .landing-page_img-container {
     align-self: stretch;
@@ -393,12 +394,19 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-} .landing-page_text-container > * {
+} @media (max-width: 25em) { .landing-page_text-container {
+    gap: .5rem;
+    padding: 0 .5rem;
+}
+  } .landing-page_text-container > * {
   text-shadow: 5px 5px rgb(16, 29, 44);
   text-shadow: 5px 5px var(--grey);
 } .description-text {
   margin-top: 1rem;
-} .nav {
+} @media (max-width: 25em) { .description-text {
+    margin-top: 2rem;
+}
+  } .nav {
   position: fixed;
   top: 0;
   z-index: 1;

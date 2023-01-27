@@ -28,10 +28,16 @@ body {
 
 .name-text {
   font-size: 6rem;
+  @media (--phone) {
+    font-size: 5.25rem;
+  }
 }
 
 .role-text {
   font-size: 4rem;
+  @media (--phone) {
+    font-size: 3.5rem;
+  }
 }
 
 .description-text {

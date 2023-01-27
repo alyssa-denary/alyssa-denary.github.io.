@@ -259,6 +259,11 @@ body {
   position: relative;
   min-height: 90vh;
 }
+@media (max-width: 42.5em) {
+.contact {
+    min-height: 130vh;
+}
+  }
 .map-box {
   background-image: url(../img/new-haven.jpg);
   background-size: cover;
@@ -304,8 +309,8 @@ body {
 @media (max-width: 42.5em) {
 .contact-box {
     height: 80vh;
-    min-height: 52rem;
-    padding: 2rem;
+    min-height: 55rem;
+    gap: 2.5rem;
 }
   }
 .profile-pic {

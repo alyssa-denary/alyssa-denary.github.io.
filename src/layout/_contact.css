@@ -1,6 +1,9 @@
 .contact {
   position: relative;
   min-height: 90vh;
+  @media (--tab-port) {
+    min-height: 130vh;
+  }
 }
 
 .map-box {
@@ -39,8 +42,8 @@
   }
   @media (--tab-port) {
     height: 80vh;
-    min-height: 52rem;
-    padding: 2rem;
+    min-height: 55rem;
+    gap: 2.5rem;
   }
 }
 

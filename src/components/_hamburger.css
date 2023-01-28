@@ -1,0 +1,21 @@
+.mobile-nav-toggle {
+  visibility: hidden;
+  @media (--tab-port) {
+    visibility: visible;
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background: no-repeat center/80% url(../img/hamburger.svg);
+    z-index: 9999;
+    top: 1rem;
+    right: 1.5rem;
+    border: none;
+  }
+}
+
+.mobile-nav-toggle[aria-expanded="true"] {
+  background: no-repeat center/80% url(../img/close.svg);
+  top: 1.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}

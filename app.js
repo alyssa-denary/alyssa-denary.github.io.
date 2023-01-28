@@ -57,3 +57,11 @@ navToggle.addEventListener("click", (e) => {
     navToggle.setAttribute("aria-expanded", "false");
   }
 });
+
+// navLinks declared at top
+navLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    primaryNav.setAttribute("data-visible", "false");
+    navToggle.setAttribute("aria-expanded", "false");
+  });
+});

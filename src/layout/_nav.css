@@ -4,8 +4,6 @@
   z-index: 1;
   height: 5rem;
   width: 100vw;
-  display: flex;
-  justify-content: space-between;
   background-image: linear-gradient(
       var(--background-grey),
       var(--background-grey)
@@ -13,14 +11,14 @@
     url(../img/hillside-river.png);
   background-size: cover;
   background-position: top;
+  display: flex;
+  justify-content: flex-end;
+  @media (--tab-port) {
+    height: 100vh;
+    justify-content: center;
+  }
 }
 
-.nav_name {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 10rem;
-}
 
 .nav_list {
   list-style: none;
@@ -29,7 +27,14 @@
   align-items: center;
   gap: 1rem;
   margin-right: 1.5rem;
-  padding-top: 0.5rem;
+  @media (--tab-port) {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-right: 0;
+  }
 }
 
 .nav_link {
@@ -41,12 +46,16 @@
 }
 
 .mobile-nav-toggle {
+  visibility: hidden;
   @media (--tab-port) {
+    visibility: visible;
     position: absolute;
     width: 5rem;
     height: 5rem;
-    background: no-repeat center/80% url(../img/bars.svg);
+    background: no-repeat center/80% url(../img/hamburger.svg);
     z-index: 9999;
+    top: 0.5rem;
     right: 2rem;
+    border: none;
   }
 }

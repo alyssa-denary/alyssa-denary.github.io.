@@ -31,6 +31,8 @@
   background-size: cover;
   background-position: center;
   position: relative;
+} .sr-only {
+  display: none;
 } .main {
   position: absolute;
   top: 0;
@@ -47,10 +49,16 @@
   margin-bottom: 0;
 } .section-heading {
   margin: 0rem 5rem 5rem 5rem;
+} .logo_name {
+  position: fixed;
+  min-width: 10rem;
+  z-index: 2;
+  top: .5rem;
+  left: 2rem;
 } body {
   color: rgb(240, 240, 240);
   color: var(--white);
-} .nav_name {
+} .logo_name {
   font-family: "Brush Script MT", cursive;
   font-size: 3rem;
   font-weight: 100;
@@ -62,7 +70,11 @@
   letter-spacing: 0.1rem;
   text-decoration: none;
   text-transform: uppercase;
-} .active,
+} @media (max-width: 37.5em) { .nav_link {
+    color: rgb(240, 240, 240);
+    color: var(--white);
+}
+  } .active,
 .nav_link:hover {
   color: rgb(240, 240, 240);
   color: var(--white);
@@ -415,8 +427,6 @@
   z-index: 1;
   height: 5rem;
   width: 100vw;
-  display: flex;
-  justify-content: space-between;
   background-image: linear-gradient(
       rgba(16, 29, 44, 0.9),
       rgba(16, 29, 44, 0.9)
@@ -429,31 +439,44 @@
     url(../img/hillside-river.png);
   background-size: cover;
   background-position: top;
-} .nav_name {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 10rem;
-} .nav_list {
+  justify-content: flex-end;
+} @media (max-width: 37.5em) { .nav {
+    height: 100vh;
+    justify-content: center;
+}
+  } .nav_list {
   list-style: none;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 1rem;
   margin-right: 1.5rem;
-  padding-top: 0.5rem;
-} .nav_link {
+} @media (max-width: 37.5em) { .nav_list {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-right: 0;
+}
+  } .nav_link {
   padding: 1rem;
 } .active {
   background-color: rgba(74, 83, 93, 0.9);
   background-color: var(--background-light-grey);
+} .mobile-nav-toggle {
+  visibility: hidden;
 } @media (max-width: 37.5em) { .mobile-nav-toggle {
+    visibility: visible;
     position: absolute;
     width: 5rem;
     height: 5rem;
-    background: no-repeat center/80% url(../img/bars.svg);
+    background: no-repeat center/80% url(../img/hamburger.svg);
     z-index: 9999;
+    top: 0.5rem;
     right: 2rem;
+    border: none;
 }
   } .projects {
   min-height: 70vh;

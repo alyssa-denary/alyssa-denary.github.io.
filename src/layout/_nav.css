@@ -16,24 +16,42 @@
   @media (--tab-port) {
     height: 100vh;
     justify-content: center;
+    background: none;
   }
 }
 
 
-.nav_list {
+#primary-nav {
   list-style: none;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 1rem;
   margin-right: 1.5rem;
+  background-image: linear-gradient(
+      var(--background-grey),
+      var(--background-grey)
+    ),
+    url(../img/hillside-river.png);
+  background-size: cover;
+  background-position: top;
+
   @media (--tab-port) {
     height: 100%;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 8rem;
     margin-right: 0;
+    transform: translateX(100%);
+    transition: transform 350ms ease-out;
+  }
+}
+
+#primary-nav[data-visible="true"] {
+  @media (--tab-port){
+    transform: translateX(0%);
   }
 }
 

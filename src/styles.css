@@ -1,11 +1,9 @@
-@import "abstracts/_functions.css";
 @import "abstracts/_media-queries.css";
 @import "abstracts/_variables.css";
 
 @import "base/_animations.css";
 @import "base/_base.css";
 @import "base/_typography.css";
-@import "base/_utilities.css";
 
 @import "components/_hamburger.css";
 @import "components/_project-showcase.css";

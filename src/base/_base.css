@@ -23,6 +23,10 @@ body {
   position: relative;
 }
 
+.sr-only {
+  display: none;
+}
+
 .main {
   position: absolute;
   top: 0;
@@ -47,4 +51,12 @@ body {
 
 .section-heading {
   margin: 0rem 5rem 5rem 5rem;
+}
+
+.logo_name {
+  position: fixed;
+  min-width: 10rem;
+  z-index: 2;
+  top: .5rem;
+  left: 2rem;
 }

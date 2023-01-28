@@ -447,7 +447,15 @@
 } .active {
   background-color: rgba(74, 83, 93, 0.9);
   background-color: var(--background-light-grey);
-} .projects {
+} @media (max-width: 37.5em) { .mobile-nav-toggle {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background: no-repeat center/80% url(../img/bars.svg);
+    z-index: 9999;
+    right: 2rem;
+}
+  } .projects {
   min-height: 70vh;
   display: grid;
   grid-template-rows: repeat(auto-fit, 36rem); /* Project height = 36rem */

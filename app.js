@@ -1,3 +1,4 @@
+////////////////// Nav link highlights as user scrolls section /////////////////////
 const sections = document.querySelectorAll(".section-divider");
 const navLinks = document.querySelectorAll("nav ul li .nav_link");
 const main = document.querySelector(".main");
@@ -41,3 +42,18 @@ setInterval(() => {
     checkAndSetActiveSection();
   }
 }, 300);
+
+////////////////////////////// Mobile toggle nav ///////////////////////////////////////
+const primaryNav = document.querySelector("#primary-nav");
+const navToggle = document.querySelector(".mobile-nav-toggle");
+
+navToggle.addEventListener("click", (e) => {
+  const visibility = primaryNav.getAttribute("data-visible");
+  if (visibility === "false") {
+    primaryNav.setAttribute("data-visible", "true");
+    navToggle.setAttribute("aria-expanded", "true");
+  } else if (visibility === "true") {
+    primaryNav.setAttribute("data-visible", "false");
+    navToggle.setAttribute("aria-expanded", "false");
+  }
+});

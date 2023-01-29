@@ -46,15 +46,18 @@ setInterval(() => {
 ////////////////////////////// Mobile toggle nav ///////////////////////////////////////
 const primaryNav = document.querySelector("#primary-nav");
 const navToggle = document.querySelector(".mobile-nav-toggle");
+const nav = document.getElementById("nav");
 
 navToggle.addEventListener("click", (e) => {
   const visibility = primaryNav.getAttribute("data-visible");
   if (visibility === "false") {
     primaryNav.setAttribute("data-visible", "true");
     navToggle.setAttribute("aria-expanded", "true");
+    nav.style.height = "100vh";
   } else if (visibility === "true") {
     primaryNav.setAttribute("data-visible", "false");
     navToggle.setAttribute("aria-expanded", "false");
+    nav.style.height = "5rem";
   }
 });
 
@@ -63,5 +66,6 @@ navLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
     primaryNav.setAttribute("data-visible", "false");
     navToggle.setAttribute("aria-expanded", "false");
+    nav.style.height = "5rem";
   });
 });

@@ -58,6 +58,6 @@ body {
   position: fixed;
   min-width: 10rem;
   z-index: 2;
-  top: .5rem;
+  top: 0.5rem;
   left: 2rem;
 }

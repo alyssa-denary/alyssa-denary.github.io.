@@ -14,9 +14,7 @@
   display: flex;
   justify-content: flex-end;
   @media (--tab-port) {
-    height: 100vh;
     justify-content: center;
-    background: none;
   }
 }
 
@@ -34,7 +32,6 @@
     url(../img/hillside-river.png);
   background-size: cover;
   background-position: top;
-
   @media (--tab-port) {
     height: 100%;
     width: 100%;
@@ -53,5 +50,3 @@
 .active {
   background-color: var(--background-light-grey);
 }
-
-
